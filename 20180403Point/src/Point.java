@@ -1,9 +1,26 @@
 
 public class Point {
 	// 필드(field)의 scope(유효범위) = 클래스 내부
-	public double x; //
-	public double y;
+	private double x; //
+	private double y;
 	
+	public void setX(double xx) { // mutator : 설정자
+		this.x = xx;
+		xx = 100.0;
+	}
+	
+	public void setY(double yy) {
+		this.y = yy;
+	}
+	
+	public double getX() { //accessor : 접근자
+		return x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
 	public double distance() {
 		//반환할 변수 선언
 		double result; //지역변수 : method 안에서만 result라는 변수 이름이 유효함
