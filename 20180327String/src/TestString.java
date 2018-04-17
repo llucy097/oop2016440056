@@ -20,7 +20,7 @@ public class TestString {
 		
 		//String 객체의 길이
 		//메소드 호출 방법: 참조변수.메소드()
-		//System.out.println("string length is "+str.length())
+		//System.out.println("string length is "+str.length());
 		int len = str.length();
 		
 		System.out.println(str);

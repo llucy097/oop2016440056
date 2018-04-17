@@ -10,13 +10,16 @@ public class Point {
 		//toString은 무조건 string으로 return 해야 함
 		
 		//return ("(" + toString(this.x) + ", " + this.y +")"); 
-		//->오류 : this.x : primitive type이기 때문에 오류 해결 방법 : primitive type double을 reference type double로 바꿔야 함
+		//->오류 : this.x : primitive type이기 때문에 오류 해결 방법 : 
+		//primitive type double을 reference type double로 바꿔야 함
 		// reference type으로 바꿔주는 tool을 사용해야 함
-		// toString(new Double(this.x)) (?) wraping function을 이용하여 객체 type로 변경 = boxing
+		// toString(new Double(this.x))
+		// (?) wraping function을 이용하여 객체 type로 변경 = boxing
 	}
 	
 	public void print() {
-		//System.out.println(this.getX() + ", " + this.getY()); //클래스에 있는 다른 메소드를 부르는 방법
+		//System.out.println(this.getX() + ", " + this.getY()); 
+		//클래스에 있는 다른 메소드를 부르는 방법
 		System.out.println(getX() + ", " + getY());
 		//System.out.println(this.x + ", " + this.y);
 	}

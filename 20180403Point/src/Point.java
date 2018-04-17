@@ -13,7 +13,7 @@ public class Point {
 		this.y = yy;
 	}
 	
-	public double getX() { //accessor : 접근자
+	public double getX() { //assessor : 접근자
 		return x;
 	}
 
