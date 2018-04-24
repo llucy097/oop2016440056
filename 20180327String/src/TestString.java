@@ -34,7 +34,6 @@ public class TestString {
 		System.out.println(str.toUpperCase());
 		
 		
-		// 2. 
 		
 	}
 
