@@ -7,14 +7,14 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class Calculator extends JFrame implements ActionListener {
+public class PracticeCalculator extends JFrame implements ActionListener {
 	
 	JButton btn[];
 	JTextField tf;
 	JPanel btnPanel, ctrPanel, masterPanel;
 	String[] labels = {"7", "8", "9", "+", "4", "5", "6", "@", "1", "2", "3", "@", "0", "C", "=", "@"}; 
 	
-	Calculator(){
+	PracticeCalculator(){
 		
 		setBackground(Color.WHITE);
 		
