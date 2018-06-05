@@ -14,10 +14,11 @@ public class Test {
 		tina.packageField = "Ed"; // 패키지 안에서만 상속 가능
 		tina.protectedField = "Beatles";
 		tina.print();
+		System.out.println(tina.nickName);
 		
 		Animal aa = new Animal();
 		aa.protectedField = "ddd";
-		
+		System.out.println(aa.protectedField);
 		
 		
 		

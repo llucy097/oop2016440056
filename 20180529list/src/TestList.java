@@ -9,6 +9,8 @@ public class TestList {
 		list.add("two");
 		
 		list.add(1, "µ¹");
+//		list.remove(1);
+//		System.out.println(list.isEmpty());
 		
 		System.out.println(list);
 		

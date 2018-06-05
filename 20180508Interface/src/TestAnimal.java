@@ -20,7 +20,7 @@ public class TestAnimal {
 		aaa.sing();
 		//polymorphism(다형성)
 		//1. 하나의 클라스로부터 여러 서브클라스를 만들 경우
-		//2. 모든 서브칼라스는 수퍼클라스의 메소드를 override한다.
+		//2. 모든 서브클라스는 수퍼클라스의 메소드를 override한다.
 		//3. SuperClass SuperRefVar = new SubClass();
 		//4. superRefVar.overrideMethod(); ->  객체의 클라스가 구현한 메소드를 실행한다./ upcasting 가능해야 함
 		Scanner ss = new Scanner(System.in);

@@ -29,7 +29,7 @@ public class Test {
 		System.out.println("10"+box.get());
 		
 		//System.out.println(10+box.get()); error : box.get()의 반환형이 object, 10의 반환형이 int -> 계산 불가
-		//System.out.println(10+(Integer)box.get());
+		System.out.println(10+(Integer)box.get()); //형변환을 하면 가능!
 		
 		
 		

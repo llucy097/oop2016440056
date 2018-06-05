@@ -32,7 +32,7 @@ public class TestCar {
 		
 //		Car Car3 = new Car("Red");
 //		System.out.println(Car3);
-		
+		myCar.print();
 		
 		
 		
